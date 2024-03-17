@@ -1,0 +1,8 @@
+* About this fork
+
+The reasons that I forked [[https://github.com/googlefonts/RobotoMono][googlefonts/RobotoMono]] are:
+
+- I like this font but its /Italics/ don't work on my favorite editor ([[https://www.gnu.org/software/emacs/][Emacs]]); it's some issue regarding the vendor string being inconsistent across the variants of the font, as far as I understand.
+- This is something that  [[https://github.com/petergardfjall][Peter Gardfjäll]] has fixed [[https://github.com/petergardfjall/RobotoMono/tree/consistent-vendor-id][on his PR]] but unfortunately it is still not merged yet.
+- I 'll admit I hadn't realized the =fonts/= directory in both of these upstreams were statically compiled files of the font. But I wanted to merge & build it myself anyway.
+- I wanted to learn how building on Github works.

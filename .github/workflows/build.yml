@@ -35,7 +35,7 @@ jobs:
         run: |
           sudo apt-get install -y zip
           cd $GITHUB_WORKSPACE/fonts
-          mv ../LICENSE.txt ../README.md .
+          mv ../LICENSE.txt .
           zip -r /tmp/my-build/roboto-mono.zip .
 
       - uses: actions/upload-artifact@master
